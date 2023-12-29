@@ -1,0 +1,47 @@
+.header {
+    height: 45px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    margin-left: 460px;
+    margin-right: 620px;
+}
+
+.header button {
+    padding: 10px 100px;
+    margin: 0;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+}
+
+.header-button-for-you {
+    color: gray;
+    border: none;
+}
+
+.header-button-following {
+    border-bottom-color: dodgerblue;
+    border-width: 0px 0px 3px 0px;
+    border-bottom-style: solid;
+}
+
+.header-button-for-you:hover,
+.header-button-following:hover {
+    background-color: lightgray;
+}
+
+.following-and-settings {
+    position: relative;
+}
+
+.settings-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.settings-button {
+    position: absolute;
+    top: -5px;
+    right: -65px;
+}

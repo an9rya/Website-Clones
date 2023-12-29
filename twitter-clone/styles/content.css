@@ -1,0 +1,192 @@
+.new-post {
+    height: 100px;
+    width: 600px;
+    display: flex;
+    padding: 20px 10px;
+    border: 1px solid rgb(234, 234, 234);
+}
+
+.profile-picture {
+    margin-right: 10px;
+}
+
+.text-box::placeholder {
+    font-size: 20px;
+}
+
+.text-box {
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 500px;
+    height: 30px;
+    border: none;
+}
+
+.footer-icons {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer button {
+    position: absolute;
+    background-color: rgba(100, 191, 237, 0.7);
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    right: -20px;
+    bottom: 2px;
+    cursor: pointer;
+}
+
+.post-grid,
+.new-post {
+    margin-left: 460px;
+}
+
+.post-container {
+    display: flex;
+    width: 600px;
+    line-height: 22px;
+    border-width: 0px 1px 1px 1px;
+    border-color: rgb(234, 234, 234);
+    border-style: solid;
+    padding: 10px;
+}
+
+.post-container:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.embed-post {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    line-height: 20px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(234, 234, 234);
+    border-style: solid;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.account-image,
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.embed-account-image {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    display: inline;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.post-heading {
+    display: flex;
+    vertical-align: center;
+    position: relative;
+}
+
+.post-user {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.verified-logo {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 5px;
+}
+
+.account-and-time {
+    color: gray;
+    font-weight: 300;
+    margin-left: 8px;
+}
+
+.post-content {
+    font-weight: 300;
+}
+
+.dots-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.three-dots {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.post-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-footer img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.icon-and-num {
+    color: gray;
+    display: flex;
+    width: 35px;
+    font-size: 13px;
+    align-items: center;
+    vertical-align: center;
+}
+
+.num {
+    margin-left: 5px;
+}
+
+.bookmark-and-upload {
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+}
